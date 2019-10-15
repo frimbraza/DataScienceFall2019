@@ -1,0 +1,31 @@
+uncertainty or unpredictability: is a lack of information
+entropy is the expected information. Measures amount of uncertainty
+
+best features == one that reduces entropy the most
+
+training a decision tree classifier(on final)
+
+Discreting continuous attributes == Requires a brute force approach usually to see what minimizes entropy
+
+
+NOTES ON LAB2
+imports:
+1. numpy
+2. panda
+
+numpy gives you common math functions like mean and standard deviation
+panda gives you knew data structures and functions
+
+data structures:
+1. Series: takes a list and "serializes" or numbers it from 0 to range. Also makes them all the same data type
+2. dataFrame: Basically a table with numbered rows and columns with names
+    FUNCTIONS FOR DATAFRAME
+    1. head() and tail(): first and last rows of a dataframe. 
+    2. shape(): gives you rows by columns of the dataframe in a tuple
+    3. columns: VARIABLE that returns a tuple of 2 items. First is a list of all the column names. Second is the datatype
+    4. df[col_name] : returns the data frame as a series based on the column provided
+    5. df[[col_names]] : returns the data frame as a NEW DATA FRAME with only the columns provided
+    6. df[x:y] : works on rows in a range of a data frame 
+    7. df.loc[row,col] : returns the cell value
+         *extend this to work on multiple cells
+    

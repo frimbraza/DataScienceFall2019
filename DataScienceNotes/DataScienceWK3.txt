@@ -1,0 +1,9 @@
+Decision Tree Classifier
+Training of a decision tree
+1. Structure of trees (priority of features)
+2. Threshold values
+3. values for the leaves
+
+How to select a feature --> We need a metric
+1. inverse of probability to happen
+2. joint probability == multiplication, but the total information is the sum

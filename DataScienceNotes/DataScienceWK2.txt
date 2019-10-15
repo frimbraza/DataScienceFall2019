@@ -1,0 +1,23 @@
+TERMS
+Features: Humdity & Tempearture
+Classifier: Predictive model
+Labels: Rainy & Sunny Day
+
+Training Stage(Modeling): 
+Testing Stage(Prediction):
+
+Supervised learnig: learning for labeled observations (eg. rain/sunny)
+Unsupervised learning: unlabeled data
+Semi-supervised learning: part of training is labeled
+Reinforcement learning: learn from agent taking part in environment for reward
+Transfer learning: solve a problem and apply extracted data to related dataset
+Active learning: labels added as needed
+
+ASPECTS of supervised learning
+Classification: Predict discrete valued output (categorical) -> Finds Classification
+Regression: Predict continuous valued output (numeric) -> Finds target
+ - linear 
+ - quadratic
+
+KNN (nearest neighbor)
+Distance depend on unit of feature
